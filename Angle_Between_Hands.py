@@ -1,3 +1,3 @@
-h,n=map(int, input ().split(":"))
-c=abs(30*(h%12)-5.5*n)
-print(min(c,360-c))
+h,m=map (int, input ().split(":"))
+a=abs(30*(h%12)-5.5*m)
+print(min(a,360-a))
