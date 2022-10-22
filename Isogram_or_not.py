@@ -1,3 +1,2 @@
 n=str(input ())
-p=len(n)
-print(len(set(n))==p)
+print(len(set(n))==len(n))
