@@ -5,6 +5,6 @@ for i in range (n):
     p+=m[i]
 o=p//n
 if o in m:
-    print ('True')
+    print("True")
 else:
-    print ('False')
+    print ("False")
