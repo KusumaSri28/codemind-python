@@ -1,11 +1,11 @@
-n=int(input())
-ar=list(map(int,input().split()))
+n=int(input ())
+m=list(map(int, input ().split()))
 p=0
-c=0
-for i in range(n):
-    p+=ar[i]
+h=0
+for i in range (n):
+    p+=m[i]
 o=p//n
-for i in range(n):
-    if ar[i]<=o:
-        c+=1
-print(c)
+for i in range (n):
+    if o>=m[i]:
+        h+=1
+print(h)
