@@ -1,11 +1,9 @@
 n=input()
 p=0
-for i in str(n):
+for i in n:
     p=n.count(i)
     if p>1:
-       print('Not Unique Number')
-       break
+        print('Not Unique Number')
+        break
 else:
     print('Unique Number')
-    
-    
