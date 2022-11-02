@@ -20,4 +20,4 @@ if pn(n):
     else:
         print('Not Mega Prime')
 else:
-    print('Not Mega Prime')
+    print ('Not Mega Prime')
